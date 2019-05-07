@@ -1,15 +1,33 @@
 <resources>
-    <string name="app_name">Tapp</string>
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="app_name">Lab06_Tapp</string>
+    <string name="nueva_cuenta">Crear una nueva cuenta</string>
+    <string name="cuenta">Ya tengo cuenta</string>
+    <string name="facebook">Iniciar sesión con Facebook</string>
+    <string name="correo">Iniciar sesión con correo</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="yaTapp">Ya tenés cuenta en Tapp?</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Mis cupones</string>
+    <string name="menu_gallery">Mi historial de puntos</string>
+    <string name="menu_slideshow">Digita tu factura</string>
+    <string name="menu_tools">Metodos de pago</string>
+    <string name="menu_share">Configuración</string>
+    <string name="menu_send">Cerrar sesión</string>
+    <string name="title_activity_login_correo">LoginCorreo</string>
+    <string name="prompt_email">Correo Eléctronico</string>
+    <string name="prompt_password">Contraseña</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="Login">Ingresar</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
