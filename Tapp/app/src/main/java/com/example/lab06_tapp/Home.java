@@ -1,5 +1,6 @@
 package com.example.lab06_tapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -78,18 +79,22 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_miscupones) {
+            Intent intent = new Intent(Home.this, Mis_Cupones.class);
+            Home.this.startActivity(intent);
+        } else if (id == R.id.nav_historial) {
+            Intent intent = new Intent(Home.this, Historial.class);
+            Home.this.startActivity(intent);
+        } else if (id == R.id.nav_factura) {
+            Intent intent = new Intent(Home.this, Factura.class);
+            Home.this.startActivity(intent);
+        } else if (id == R.id.nav_metodospago) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_config) {
 
-        } else if (id == R.id.nav_tools) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_cerrarsesion) {
+            Intent intent = new Intent(Home.this, MainActivity.class);
+            Home.this.startActivity(intent);
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

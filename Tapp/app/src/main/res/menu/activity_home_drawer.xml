@@ -5,28 +5,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/nav_miscupones"
+            android:icon="@drawable/mis_cupones"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/historial"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/nav_factura"
+            android:icon="@drawable/factura"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
+            android:id="@+id/nav_metodospago"
+            android:icon="@drawable/metodos"
             android:title="@string/menu_tools" />
         <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/ic_menu_share"
+            android:id="@+id/nav_config"
+            android:icon="@drawable/config"
             android:title="@string/menu_share" />
         <item
-            android:id="@+id/nav_send"
-            android:icon="@drawable/ic_menu_send"
+            android:id="@+id/nav_cerrarsesion"
+            android:icon="@drawable/logout"
             android:title="@string/menu_send" />
     </group>
 

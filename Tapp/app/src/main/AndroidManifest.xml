@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/tapp_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Factura"></activity>
+        <activity android:name=".Historial" />
+        <activity android:name=".Mis_Cupones" />
         <activity
             android:name=".ui.login.LoginCorreo"
-            android:label="@string/title_activity_login_correo"></activity>
+            android:label="@string/title_activity_login_correo" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"

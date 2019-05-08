@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.lab06_tapp.ui.login.LoginActivity;
+
 public class Login_opciones extends AppCompatActivity {
 
     Button correobtn;
@@ -28,7 +30,7 @@ public class Login_opciones extends AppCompatActivity {
         correobtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goToHome();
+                goToLoginCorreo();
             }
         });
     }
@@ -36,6 +38,11 @@ public class Login_opciones extends AppCompatActivity {
     public void goToHome(){
 
         Intent intent = new Intent(Login_opciones.this, Home.class);
+        Login_opciones.this.startActivity(intent);
+    }
+    public void goToLoginCorreo(){
+
+        Intent intent = new Intent(Login_opciones.this, LoginActivity.class);
         Login_opciones.this.startActivity(intent);
     }
 }

@@ -30,4 +30,11 @@
     <string name="Login">Ingresar</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="mis_cupones">"Mis cupones"</string>
+    <string name="no_cupones">"No tenés Cupones en este momento"</string>
+    <string name="no_historial">"No tenés transacciones en este momento"</string>
+    <string name="historial">"Mi historial de puntos"</string>
+    <string name="factura">"Digitá el código de tu factura"</string>
+    <string name="codigo">"Código de tu factura"</string>
+    <string name="enviar">"Enviar"</string>
 </resources>

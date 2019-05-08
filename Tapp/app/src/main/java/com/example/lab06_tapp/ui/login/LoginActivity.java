@@ -22,7 +22,7 @@ import com.example.lab06_tapp.R;
 import com.example.lab06_tapp.ui.login.LoginViewModel;
 import com.example.lab06_tapp.ui.login.LoginViewModelFactory;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity  extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
 
