@@ -17,11 +17,8 @@
         <activity android:name=".Historial" />
         <activity android:name=".Mis_Cupones" />
         <activity
-            android:name=".ui.login.LoginCorreo"
-            android:label="@string/title_activity_login_correo" />
-        <activity
             android:name=".Home"
-            android:label="@string/title_activity_home"
+            android:label="@string/tapp"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Login_opciones" />
         <activity android:name=".MainActivity">

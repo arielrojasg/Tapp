@@ -69,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/correo"
+        android:hint="@string/correo_f"
         android:layout_marginBottom="20dp"
         android:inputType="textEmailAddress" />
 

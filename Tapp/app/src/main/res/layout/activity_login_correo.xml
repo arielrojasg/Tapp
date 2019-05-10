@@ -43,7 +43,7 @@
         android:selectAllOnFocus="true" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -53,7 +53,7 @@
         android:layout_marginBottom="64dp"
         android:background="@color/naranjafondo"
         android:textColor="@color/blanco"
-        android:enabled="false"
+        android:enabled="true"
         android:text="@string/ingresar" />
 
     <ProgressBar
@@ -66,5 +66,11 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="64dp"
         android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
