@@ -24,12 +24,24 @@ public class MainActivity extends AppCompatActivity {
                 goToLoginOpciones();
             }
         });
+        nueCuentabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToRegistro();
+            }
+        });
 
     }
 
     public void goToLoginOpciones(){
 
         Intent intent = new Intent(MainActivity.this, Login_opciones.class);
+        MainActivity.this.startActivity(intent);
+    }
+
+    public void goToRegistro(){
+
+        Intent intent = new Intent(MainActivity.this, Registro_Usuario.class);
         MainActivity.this.startActivity(intent);
     }
 }

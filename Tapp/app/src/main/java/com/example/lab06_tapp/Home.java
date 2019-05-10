@@ -89,7 +89,8 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(Home.this, Factura.class);
             Home.this.startActivity(intent);
         } else if (id == R.id.nav_metodospago) {
-
+            Intent intent = new Intent(Home.this, Tarjetas.class);
+            Home.this.startActivity(intent);
         } else if (id == R.id.nav_config) {
 
         } else if (id == R.id.nav_cerrarsesion) {

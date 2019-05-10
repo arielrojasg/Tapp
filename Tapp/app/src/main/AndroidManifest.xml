@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/tapp_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Factura"></activity>
+        <activity android:name=".LoginCorreo"></activity>
+        <activity android:name=".Registro_Usuario" />
+        <activity android:name=".Tarjeta_form" />
+        <activity android:name=".Tarjetas" />
+        <activity android:name=".Factura" />
         <activity android:name=".Historial" />
         <activity android:name=".Mis_Cupones" />
         <activity

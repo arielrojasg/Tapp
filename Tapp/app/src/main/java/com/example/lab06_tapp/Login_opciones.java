@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.lab06_tapp.ui.login.LoginActivity;
-
 public class Login_opciones extends AppCompatActivity {
 
     Button correobtn;
@@ -42,7 +40,7 @@ public class Login_opciones extends AppCompatActivity {
     }
     public void goToLoginCorreo(){
 
-        Intent intent = new Intent(Login_opciones.this, LoginActivity.class);
+        Intent intent = new Intent(Login_opciones.this, LoginCorreo.class);
         Login_opciones.this.startActivity(intent);
     }
 }
