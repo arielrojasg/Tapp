@@ -25,10 +25,12 @@
 
             <TextView
                 android:id="@+id/textView"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@string/historial"
+                android:layout_marginLeft="20dp"
                 android:textColor="@color/blanco"
                 android:textSize="25sp" />
         </android.support.design.widget.CollapsingToolbarLayout>
@@ -46,7 +48,7 @@
             tools:context=".Mis_Cupones">
 
             <android.support.v7.widget.RecyclerView
-                android:id="@+id/historial_view"
+                android:id="@+id/mis_cupones_view"
                 android:layout_width="395dp"
                 android:layout_height="715dp" />
 

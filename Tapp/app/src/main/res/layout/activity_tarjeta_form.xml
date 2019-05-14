@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@string/agregar_tarjeta"
+                android:layout_marginLeft="20dp"
                 android:textColor="@color/blanco"
                 android:textSize="25sp" />
         </android.support.design.widget.CollapsingToolbarLayout>

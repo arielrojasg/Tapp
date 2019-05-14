@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/tapp_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginCorreo"></activity>
+        <activity android:name=".Pais"></activity>
+        <activity android:name=".EditarCuenta" />
+        <activity android:name=".Configuracion" />
+        <activity android:name=".CuponesComerc" />
+        <activity android:name=".LoginCorreo" />
         <activity android:name=".Registro_Usuario" />
         <activity android:name=".Tarjeta_form" />
         <activity android:name=".Tarjetas" />

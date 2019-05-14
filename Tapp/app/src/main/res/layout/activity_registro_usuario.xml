@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@string/registrarse"
+                android:layout_marginLeft="20dp"
                 android:textColor="@color/blanco"
                 android:textSize="25sp" />
         </android.support.design.widget.CollapsingToolbarLayout>
@@ -96,15 +97,18 @@
         android:layout_width="match_parent"
         android:tooltipText="genero"
         android:hint="@string/genero"
+        android:entries="@array/generos"
         android:layout_marginBottom="20dp"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/registrobtn"
+        android:id="@+id/guardar2btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/naranjafondo"
         android:textColor="@color/blanco"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:text="@string/registrarse" />
 
 </LinearLayout>

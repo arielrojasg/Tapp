@@ -8,6 +8,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -20,13 +21,16 @@ public class Registro_Usuario extends AppCompatActivity {
 
     EditText correo, password;
     Button registrarseBtn;
+    Spinner spinner;
     private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_usuario);
 
-        registrarseBtn = (Button)findViewById(R.id.registrobtn);
+        registrarseBtn = (Button)findViewById(R.id.guardar2btn);
+        spinner = findViewById(R.id.generospinner);
+        spinner.setSelection(0,false);
         correo = (EditText) findViewById(R.id.correotxt);
         password = (EditText) findViewById(R.id.passwordtxt);
         registrarseBtn.setOnClickListener(new View.OnClickListener() {

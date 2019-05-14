@@ -7,4 +7,5 @@
     <color name="blanco">#FFFFFC</color>
     <color name="naranjafondo">#F58F29</color>
     <color name="naranjatop">#FF6600</color>
+    <color name="transparente">#0000</color>
 </resources>

@@ -41,6 +41,7 @@
         android:background="@color/naranjafondo"
         android:text="@string/correo"
         android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_email_white"
         android:textColor="@color/blanco" />
 
     <Button
@@ -50,6 +51,7 @@
         android:background="@color/azulbtn"
         android:text="@string/facebook"
         android:layout_gravity="center"
+        android:drawableLeft="@drawable/facebook"
         android:textColor="@color/blanco" />
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Lab06_Tapp</string>
+    <string name="aceptar">Aceptar</string>
     <string name="nueva_cuenta">Crear una nueva cuenta</string>
     <string name="cuenta">Ya tengo cuenta</string>
     <string name="facebook">Iniciar sesión con Facebook</string>
@@ -17,6 +18,34 @@
     <string name="metodos">Mis métodos de pago</string>
     <string name="tapp">Tapp</string>
     <string name="correo_f">Correo</string>
+
+    <string name="configu">Configuración</string>
+
+    <string name="selec_pais">Seleccioná tu país</string>
+    <string name="elegi">Elegí la zona en la que estás</string>
+
+    <string name="editar">Editar mi cuenta</string>
+    <string name="pais">Cambiar país</string>
+    <string name="terminos">Ver nuestros términos</string>
+
+    <string-array name="generos">
+        <item>Género</item>
+        <item>Hombre</item>
+        <item>Mujers</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="paises">
+        <item>Costa Rica</item>
+        <item>México</item>
+    </string-array>
+
+    <string name="dinero_canjeable">Dinero canjeable</string>
+    <string name="cupones">Cupones</string>
+    <string name="cupones_disponibles">Cupones disponibles</string>
+
+    <string name="colones">0 Colones</string>
+    <string name="dinero">Dinero que puedes usar en tu próxima compra en cualquiera de los comercios identificados.</string>
 
     <string name="menu_home">Mis cupones</string>
     <string name="menu_gallery">Mi historial de puntos</string>

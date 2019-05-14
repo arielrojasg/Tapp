@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@string/metodos"
+                android:layout_marginLeft="20dp"
                 android:textColor="@color/blanco"
                 android:textSize="25sp" />
         </android.support.design.widget.CollapsingToolbarLayout>
@@ -49,6 +50,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@color/naranjafondo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:textColor="@color/blanco"
         android:text="@string/agregar_tarjeta" />
 

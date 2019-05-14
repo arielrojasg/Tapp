@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditarCuenta">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/editar"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/blanco"
+                android:textSize="25sp" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/nombretxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/nombre" />
+
+    <EditText
+        android:id="@+id/apellidotxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/apellido" />
+
+    <EditText
+        android:id="@+id/fechatxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/fecha"
+        android:layout_marginBottom="20dp"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/correotxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/correo_f"
+        android:layout_marginBottom="20dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passwordconftxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/conf_password"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/generospinner"
+        android:layout_width="match_parent"
+        android:tooltipText="genero"
+        android:hint="@string/genero"
+        android:entries="@array/generos"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/guardar2btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/naranjafondo"
+        android:textColor="@color/blanco"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/guardar" />
+
+
+</LinearLayout>
